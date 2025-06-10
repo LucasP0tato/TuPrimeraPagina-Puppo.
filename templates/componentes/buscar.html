@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Buscar Procesador{% endblock %}
+
+{% block content %}
+<h2>Buscar Procesador</h2>
+
+<form method="get">
+    {{ form.as_p }}
+    <button type="submit">Buscar</button>
+</form>
+
+{% if resultados %}
+    <h3>Resultados:</h3>
+    <ul>
+        {% for procesador in resultados %}
+            <li>{{ procesador.nombre }} - {{ procesador.velocidad }} GHz - {{ procesador.nucleos }} núcleos</li>
+        {% endfor %}
+    </ul>
+{% elif resultados is not None %}
+    <p>No se encontraron procesadores con ese nombre.</p>
+{% endif %}
+{% endblock %}
