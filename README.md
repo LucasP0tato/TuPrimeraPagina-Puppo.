@@ -22,7 +22,7 @@ PlacaMadre: nombre, chipset y socket
 Cómo usarlo?
 Clonar el repo y entrar a la carpeta
 ---
-git clone <link_del_repo>
+git clone <https://github.com/LucasP0tato/coderhouse-srptt>
 cd blogpc
 Crear un entorno virtual y activar
 ---
@@ -40,7 +40,6 @@ python manage.py runserver
 Abrir en el navegador:
 ---
 cpp
-http://127.0.0.1:8000/
 Qué podés hacer
 -Crear nuevos procesadores, placas madre y tarjetas gráficas con formularios
 -Buscar procesadores por nombre y ver resultados
