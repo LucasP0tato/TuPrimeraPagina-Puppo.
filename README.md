@@ -22,7 +22,7 @@ PlacaMadre: nombre, chipset y socket
 Cómo usarlo?
 Clonar el repo y entrar a la carpeta
 ---
-git clone <https://github.com/LucasP0tato/coderhouse-srptt>
+git clone <https://github.com/LucasP0tato/TuPrimeraPagina-Puppo.>
 cd blogpc
 Crear un entorno virtual y activar
 ---
